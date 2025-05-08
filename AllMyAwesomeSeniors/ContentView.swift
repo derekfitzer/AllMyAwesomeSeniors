@@ -10,11 +10,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "Smile")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Add Your Name and Photo to this View")
-        }
+            VStack {
+                Image("ahmedImage")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    
+                Text("Disukhi Ahmed")
+            }        }
         .padding()
     }
 }
