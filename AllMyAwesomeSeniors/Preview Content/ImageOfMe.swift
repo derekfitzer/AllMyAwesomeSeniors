@@ -9,7 +9,8 @@ import SwiftUI
 
 struct ImageOfMe: View {
     var body: some View {
-        Image("images")
+        Image("IMG_1589")
+        Text("Subject Test 1: Succesfull")
     }
 }
 
