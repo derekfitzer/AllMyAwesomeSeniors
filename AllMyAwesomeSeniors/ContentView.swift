@@ -9,8 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ScrollView {
-            VStack {
+
+      ScrollView {
+        VStack {
+            Image("davisPhoto1")
+                .resizable()
+            Text("Ilyas Davis")
+
+        
+         
                 // Joshua Moore
                 Text("Joshua Logan Moore - Class of 2025")
                     .font(.custom("", size: 20))
@@ -22,6 +29,7 @@ struct ContentView: View {
                     .frame(width: 400, height: 400)
             }
             .padding()
+
         }
     }
 }
