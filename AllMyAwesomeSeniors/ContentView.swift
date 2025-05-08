@@ -12,11 +12,20 @@ struct ContentView: View {
 
       ScrollView {
         VStack {
+
+                
+
+
+
             Image("davisPhoto1")
                 .resizable()
             Text("Ilyas Davis")
 
-        
+        Image("ahmedImage")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    
+                Text("Disukhi Ahmed")
          
                 // Joshua Moore
                 Text("Joshua Logan Moore - Class of 2025")
@@ -31,6 +40,7 @@ struct ContentView: View {
             .padding()
 
         }
+
     }
 }
 

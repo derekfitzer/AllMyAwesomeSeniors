@@ -9,7 +9,13 @@ import SwiftUI
 
 struct DAAfile: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Image("ahmedImage")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                
+            Text("Disukhi Ahmed")
+        }
     }
 }
 
