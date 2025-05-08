@@ -9,13 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "Smile")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Add Your Name and Photo to this View")
+        ScrollView {
+            VStack {
+                // Joshua Moore
+                Text("Joshua Logan Moore - Class of 2025")
+                    .font(.custom("", size: 20))
+                    .bold()
+                    .underline()
+                Image("joshuaimage")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 400, height: 400)
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
